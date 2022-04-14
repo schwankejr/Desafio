@@ -28,8 +28,7 @@ class RegisterUsuario(APIView):
             
 
             user_model = User.objects.create(
-                email = email,
-                password = password,
+
                 username = usuario.cpf_cnpj 
             )
 
